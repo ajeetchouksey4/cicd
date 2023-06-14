@@ -20,7 +20,7 @@ public class EmployeeController {
 	private EmployeeService employeeService;
 	
 	
-	@GetMapping("all-employee")
+	@GetMapping("all-employees")
 	public ResponseEntity<List<Employee>> getALlEmployee(){
 		
 		//need to call Service 
