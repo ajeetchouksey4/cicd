@@ -23,7 +23,7 @@ public class EmployeeController {
 	@GetMapping("all-employees")
 	public ResponseEntity<List<Employee>> getALlEmployee(){
 		
-		//need to call Service 
+		//need to call Service ------- 
 		
 		employeeService.getALlEmployee();
 		return new ResponseEntity<>(HttpStatus.OK);
